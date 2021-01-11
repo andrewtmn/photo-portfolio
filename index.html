@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Andrew Nguyen</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="styles/styles.css">
+        <script src="script.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <nav id="navbar">
+            <header>Andrew Nguyen</header>
+            <ul>
+                <li><a href="#home-photo">Back To Top</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#tab-gallery">Landscapes</a></li>
+                <li><a href="tab-gallery">Portraits</a></li>
+                <li><a href="#socials">Socials</a></li>
+            </ul>
+        </nav>
+
+        <div id="home-photo">
+            <img src="images/mountain-shot.jpg" alt="mountain">
+        </div>
+
+        <section id="tab-gallery">
+            <!-- The preview of photos -->
+            <section class="gallery-row">
+                <div class="gallery-column">
+                    <img src="images/mountain-shot.jpg" alt="mountain" onclick="expandImage(this);">
+                </div>
+
+                <div class="gallery-column">
+                    <img src="images/lake-bank.jpg" alt="lake-bank" onclick="expandImage(this);">
+                </div>
+
+                <div class="gallery-column">
+                    <img src="images/pier-shore.jpg" alt="pier-shore" onclick="expandImage(this);">
+                </div>
+
+                <div class="gallery-column">
+                    <img src="images/shorncliffe-pier.jpg" alt="shorncliffe pier" onclick="expandImage(this);">
+                </div>
+            </section>
+
+            <!-- The container for the expanded image-->
+            <section id="expanded-container">
+                <!-- expanded image-->
+                <img src="images/pier-shore.jpg" id="expanded-image">
+            </section>
+        </section>
+
+        <main id="projects">
+            <div class="project-title">
+                <a href="">Link to social</a>
+            </div>
+            
+            <p>Work in progress...</p>
+            <div class="project-title">
+                <a href="">Another link to socials...</a>
+            </div>
+
+        </main>
+
+        <section id="socials">
+            <p>Github...</p>
+            <p>Email...</p>
+        </section>
+    </body>
+</html>
