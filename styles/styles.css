@@ -25,17 +25,17 @@ body {
     text-align: center;
     font-family: Montserrat, sans-serif;
     float: left;
-    padding: 20px 0px 10px 10px;
-    margin: 0px 0px 0px 20px;
+    padding: 20px 0px 10px 0px;
+    margin: 0px 0px 0px 10px;
     font-size: 20px;
     position: relative;
-    left: 5%;
+    left: 1%;
 }
 
 /* remove bullet points for navbar list*/
 #navbar ul {
     list-style: none;
-    padding: 0px 5px 0px 5px;
+    padding: 0px 10px 0px 5px;
 }
 
 #navbar a {
@@ -120,6 +120,7 @@ body {
 @media only screen and (max-device-width: 480px) {
     #home-photo {
         width: 100vw;
+        height: auto;
     }
 
     #home-photo img {
