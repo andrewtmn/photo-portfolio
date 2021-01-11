@@ -72,13 +72,6 @@ body {
     top: 12.5%;
 }
 
-/* Use CSS Grid to layout the project rectangles in this container */
-#projects {
-    background-color: var(--main-bg, white);
-    padding: 10px;
-    height: 100vh;
-}
-
 #tab-gallery {
     background-color: var(--main-bg, white);
     z-index: 999;
@@ -115,6 +108,53 @@ body {
 
 #expanded-image {
     width: 100%;
+}
+
+/* Use CSS Grid to layout the project rectangles in this container */
+#socials {
+    background-color: var(--main-bg, white);
+    padding: 15px;
+    height: 100vh;
+    border-style: solid;
+    display: grid;
+    grid-template-columns: 35fr 65fr;
+}
+
+#socials > div {
+    border-radius: 5%;
+    margin: 10px;
+    padding: 10px;
+    border-style: solid;
+}
+
+#socials .social-text > header {
+    text-align: center;
+    position: relative;
+    top: 40%;
+}
+
+#socials .instagram {
+
+}
+
+#socials .youtube {
+    background-color: rgb(201, 201, 201)
+}
+
+#socials .pinterest {
+    
+}
+
+#portraits {
+    background-color: var(--main-bg, white);
+    border-style: solid;
+    height: 100vh;
+}
+
+#street {
+    background-color: var(--main-bg, white);
+    height: 100vh;
+    border-style: solid;
 }
 
 @media only screen and (max-device-width: 480px) {
