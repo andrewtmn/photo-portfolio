@@ -149,6 +149,24 @@ body {
     max-height: 90%;
 }
 
+.instagram {
+    background-image: url("../images/ig-bg.jpg");
+    background-size: 100% auto;
+    opacity: 0.8;
+}
+
+.youtube {
+    background-image: url("../images/yt-bg.png");
+    background-size: 100% auto;
+    opacity: 0.8;
+}
+
+.fisherman img {
+    position: relative;
+    max-height: 100%;
+    width: auto;
+}
+
 .widget {
     margin: auto;
     position: relative;
@@ -163,13 +181,7 @@ body {
 .widget img {
     position: relative;
     margin: auto;
-    max-width: 17%;
-}
-
-.fisherman img {
-    position: relative;
-    max-height: 100%;
-    width: auto;
+    max-width: 20%;
 }
 
 #portraits {
@@ -198,6 +210,18 @@ body {
     #socials {
         width: 100vw;
         height: 50vh;
+    }
+
+    .widget img {
+        position: relative;
+        margin: auto;
+        max-width: 50%;
+    }
+
+    .fisherman {
+        position: relative;
+        right: 20px;
+        max-width: 40%;
     }
 
     #portraits, #street {
