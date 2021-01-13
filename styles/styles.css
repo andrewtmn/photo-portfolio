@@ -53,7 +53,6 @@ body {
 }
 
 #home-photo {
-    background-image: url(/images/mountain-shot.jpg);
     background-color: var(--main-bg, black);
     margin: 55px 0px 0px 0px;
     padding: 10px 0px 0px 0px;
@@ -140,15 +139,16 @@ body {
 }
 
 #socials .instagram {
-
+    background-image: url("");
 }
 
 #socials .youtube {
-    background-color: rgb(201, 201, 201)
+    background-color: rgb(201, 201, 201);
+    background-image: url("");
 }
 
 #socials .pinterest {
-    
+    background-image: url("");
 }
 
 #portraits {
