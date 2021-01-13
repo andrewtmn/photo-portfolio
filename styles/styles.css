@@ -121,9 +121,10 @@ body {
 
 #socials > div {
     border-radius: 5%;
+    border-style: solid;
     margin: 25px;
     padding: 10px;
-    border-style: solid;
+    text-align: center;
 }
 
 #socials > div:hover {
@@ -143,12 +144,21 @@ body {
 }
 
 #socials .youtube {
-    background-color: rgb(201, 201, 201);
     background-image: url("");
 }
 
 #socials .pinterest {
     background-image: url("");
+}
+
+.widget {
+    margin: auto;
+    position: relative;
+    top: 35%;
+}
+
+.widget:hover {
+    opacity: 0.7;
 }
 
 #portraits {
