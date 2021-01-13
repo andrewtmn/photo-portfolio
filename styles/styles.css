@@ -209,6 +209,8 @@ body {
     #socials {
         width: 100vw;
         height: 50vh;
+        display: grid;
+        grid-template-columns: 50fr 50fr;
     }
 
     .widget img {
